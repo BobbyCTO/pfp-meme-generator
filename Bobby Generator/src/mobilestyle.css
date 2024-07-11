@@ -1,0 +1,205 @@
+
+@media (max-width: 1756px) {
+.MEMEgen{
+    flex-direction: column;
+}
+
+.EDITField {
+    border-bottom: solid 5px #4f0101;
+    border-right: none;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 0;
+}
+.Instructions{
+    background-color: #DFA67B;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    max-width: 750px;
+    border-radius: 25px;
+    border: solid 5px #4f0101;
+    box-shadow: 10px 10px 5px #4f0101; 
+    padding: 50px;
+    font-weight: bolder;
+}
+}
+
+
+@media (max-width: 428px) {
+    *{
+        margin: 0;
+        padding: 0px;
+    }
+    body{
+        padding: 0px;
+        margin: 0;
+    }
+    .Maincontainer {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        max-width: 420px;
+        padding: 15px;
+    }
+    
+    .MEMEgen{
+        flex-direction: column-reverse;
+        max-width: 420px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .EDITField {
+        flex-direction: column;
+        padding: 15px;
+        border-top: solid 5px #4f0101;
+        border-right: none;
+        border-bottom: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        margin-top: 15px;
+        max-width: 400px;
+    }
+    #EditBtns {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    #EditBtns input {
+        width: 250px;
+        margin-left: 5px;
+    }
+    #EditBtns button{
+        width: 250px;
+    }
+    #EditBtns label{
+        width: 250px;
+    }
+    #EditBtns select{
+        width: 250px;
+    }
+    .background-grid {
+        display: none; /* Hide the background grid on mobile devices */
+    }
+
+    td{
+        border: #4f0101 solid 5px;
+        background-color: #FFD966;
+        font-size: 0.75rem;
+    }
+    th{
+        font-size: 1.25rem;
+    }
+
+    .Instructions{
+        align-items: flex-start;
+        justify-content:flex-start;
+        max-width: 400px;
+        margin: 5px;
+        margin-top: 15px;
+        padding: 5px;
+    }
+    .addinfo{
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 25px;
+        }
+        .IMGcontroll{
+            max-width: 380px;
+            height: fit-content;
+            flex-wrap: wrap;
+            margin-right: 0px;
+        }
+
+        #imageGallery img {
+            width: 50px;
+            height: 50px;
+
+        }
+        .Btns {
+            margin-top: 15px;
+            width: 380px;
+            height: fit-content;
+        }
+
+        .canvas-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 5px;
+        }
+        .create{
+            max-width: 380px;
+            height: fit-content;
+            padding-bottom: 20px;
+
+        }
+        .updown {   
+            display: flex;
+            margin-top: 0px;
+            align-items:center
+        }
+        .updown button {
+            max-width: 250px;
+            background-color:#4f0101;
+            border: 5px solid #FFF2CC;
+            color: white;
+            padding: 5px 5px;
+            margin-top: 5px;
+        }
+        .updown input {
+            max-width: 250px;
+            margin: 0;
+            padding: 5px 5px;
+        }
+
+        .memediv{
+            margin: 0px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            }
+
+
+    footer{
+
+        padding: 0;
+        width: 100%;
+    }
+    .fcontainer{
+        align-items: center;
+        flex-direction: column;
+
+        font-size: 0.75rem;
+    }
+    
+    .social_media_links img{
+        max-width: 25px;
+        max-height: 25px;
+    }
+
+    .LOGO img{
+        align-items: flex-start;
+    }
+
+    .grid-item  {
+        display:none; 
+        border: none;
+        box-shadow: none;     
+        width: 0px;
+        height: 3px;  
+    }
+
+
+
+    
+}
+
+

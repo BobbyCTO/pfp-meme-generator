@@ -1,0 +1,309 @@
+
+.Maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Instructions{
+    background-color: #DFA67B;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    width: 1200px;
+    border-radius: 25px;
+    border: solid 5px #4f0101;
+    box-shadow: 10px 10px 5px #4f0101; 
+    padding: 50px;
+    font-weight: bolder;
+}
+
+.table{
+    padding: 0;
+    background-color: #4f0101;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+
+}
+
+td{
+    border: #4f0101 solid 5px;
+    background-color: #FFD966;
+    font-size: 1.25rem;
+}
+
+th{
+    font-size: 2.5rem;
+}
+
+.addinfo{
+font-size: 1.25rem;
+text-align: center;
+padding: 25px;
+}
+
+.addinfo h3 {
+    margin-top: 15px;
+}
+
+
+
+.MEMEgen {
+ display: flex;
+ background-color: #DFA67B;
+ max-width: 1750px;
+ border: solid 5px #4f0101;
+ border-radius: 30px;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 10px 10px 5px #4f0101; 
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+}
+.EDITField {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD966;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: solid 5px #4f0101;
+}
+
+.IMGcontroll{
+    border: solid 5px #4f0101;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #4f0101;   
+    height: 725px;
+    background-color: #FFF2CC;
+    margin-right: 25px;
+}
+
+
+.Btns {
+    flex-direction: column;
+    border: solid 5px #4f0101;
+    border-radius: 25px;
+    background-color: #FFF2CC;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 725px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 5px #4f0101;  
+}
+
+.Btns button{
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #FFD966;
+    border: solid 5px #4f0101;
+    box-shadow: 3px 3px 5px #4f0101;
+    color: #4f0101;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+input[type="file"], select {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #FFD966;
+    border: solid 5px #4f0101;
+    box-shadow: 3px 3px 5px #4f0101;
+    color: #4f0101;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+input[type="file"]:hover, select:hover {
+    cursor: grab;
+    background-color: rgba(237, 237, 237, 0.8);
+    border: solid 5px #4f0101;
+    color: #4f0101;
+}
+
+
+#imageGalleryContainer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 680px;
+    background-color: #FFF2CC;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+#imageGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;   
+  
+}
+
+#imageGallery img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 5px solid #DFA67B;
+    border-radius: 25px;
+    background-color:#F4B183;
+    padding: 10px;
+}
+
+#imageGallery img:hover {
+    cursor: grab;
+    background-color: rgba(237, 237, 237, 0.8);
+    border: solid 5px #4f0101;
+    box-shadow: 0px 0px 12px #000000;   
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    background-color:#F4B183;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom: 5px solid #DFA67B;
+    height: 75px;
+    margin-bottom: 15px;
+}
+
+
+.title button {
+    padding: 5px 5px;
+    color: #ccc;
+    background-color: #FFD966;
+    border: solid 5px #4f0101;
+    box-shadow: 10px 10px 5px #4f0101;  
+    border-radius: 25px;
+    color: #4f0101;
+    font-weight: bolder;
+}
+
+.title button:hover {
+    cursor: grab;
+    background-color:#4f0101;
+    border: 5px solid #FFD966;
+    color: white;
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #FFF2CC;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom: 5px solid #DFA67B;
+    height: 75px;
+    color: #4f0101;
+}
+
+h2{
+    color: #4f0101;
+}
+
+#layerManager {
+    width: 150px;
+    background-color: #FFD966;
+    border: #4f0101 solid 5px;
+}
+
+#layerManager:hover {
+    width: 150px;
+    background-color: #FFD966;
+    border: #4f0101 solid 5px;
+}
+
+.canvas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+
+.create{
+    background-color: #FFD966;
+    height: 725px;
+    border: solid 5px #4f0101;
+    box-shadow: 10px 10px 5px #4f0101;
+    border-radius: 25px;
+}
+
+
+.updown {
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: -25px;
+    justify-content: space-between;
+}
+
+.updown button {
+    max-width: 100px;
+    background-color:#4f0101;
+    border: 5px solid #FFF2CC;
+    color: white;
+    padding: 5px 5px;
+}
+
+.updown button:hover {
+    background-color: #FFF2CC;
+    border: solid 5px #4f0101;
+    color: #4f0101;
+}
+
+#canvas {
+    border: solid 5px #4f0101;
+}
+.memediv{
+margin: 50px;
+}
+
+button, input[type="file"], select {
+
+    width: 200px;
+    border-radius: 4px;
+    background-color:#4f0101;
+    border: 5px solid #FFF2CC;
+    box-shadow: 3px 3px 5px #4f0101;
+    color: white;
+    cursor: pointer;
+
+}    
+
+button:hover, input[type="file"]:hover, select:hover {
+    cursor: grab;
+    background-color: #FFF2CC;
+    border: solid 5px #4f0101;
+}
+
+
